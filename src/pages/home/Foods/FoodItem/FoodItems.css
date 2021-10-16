@@ -1,0 +1,8 @@
+.food-card{
+    height: 100%;
+    transition:.3s;
+    border-radius: .5rem;
+}
+.food-card:hover{
+    box-shadow: 1px 1px 10px rgb(175, 174, 174);
+}

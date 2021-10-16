@@ -27,6 +27,16 @@ const Footer = () => {
                         </ul>
                     </Col>
                 </Row>
+                <Row className='mt-5'>
+                    <Col md={6} className='text-secondary p-0 text-start'>
+                        <span>&copy;Copyright 2021 hot onion</span>
+                    </Col>
+                    <Col md={6} className='text-white text-start'>
+                        <span className='px-4'>Privacy policy</span>
+                        <span className='px-4'>Terms of Use</span>
+                        <span className='px-4'>Pricing</span>
+                    </Col>
+                </Row>
             </Container>
         </div>
     );
