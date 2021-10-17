@@ -8,6 +8,7 @@ import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import NotFound from './pages/NotFound/NotFound'
 import FootDetails from './pages/FootDetails/FootDetails';
 import Login from './pages/Login/Login';
+import Register from './pages/Register/Register';
 
 
 
@@ -25,6 +26,9 @@ function App() {
          </Route>
          <Route path='/login'>
             <Login></Login>
+         </Route>
+         <Route path='/register'>
+            <Register></Register>
          </Route>
          <Route path='/foodDetail/:foodKey'>
             <FootDetails></FootDetails>

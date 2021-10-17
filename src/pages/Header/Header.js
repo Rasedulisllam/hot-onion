@@ -12,10 +12,10 @@ const Header = () => {
                 <Navbar.Brand style={{width:'9rem'}}><img className='img-fluid' src={brandIcon} alt="brand icon" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" className="justify-content-end text-black">
-                    <Nav.Link className='text-black fw-bold' href="#action1"><FiShoppingCart /></Nav.Link>
+                    <Nav.Link as={Link} className='text-black fw-bold' href="#action1"><FiShoppingCart /></Nav.Link>
                     <Nav.Link as={Link} className='text-black fw-bold' to='/home'>Home</Nav.Link>
-                    <Nav.Link className='text-black fw-bold'  href="#action2">Login</Nav.Link>
-                    <Button variant="danger" className='hot-btn'>Sign Up</Button>
+                    <Nav.Link as={Link} className='text-black fw-bold' to='/login'>Login</Nav.Link>
+                    <Link to='/register'><Button variant="danger" className='hot-btn'>Sign Up</Button></Link>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
