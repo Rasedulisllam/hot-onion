@@ -1,8 +1,9 @@
-import React from 'react';
+
 import { Col, Container, Row } from 'react-bootstrap';
 import brandFooter from '../../image/logo/logo.png'
 
 const Footer = () => {
+    
     return (
         <div className='bg-dark p-5'>
             <Container>
